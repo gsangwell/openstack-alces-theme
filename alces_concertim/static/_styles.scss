@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic");
+
+@import "/themes/default/styles";
+
+.login {
+padding-top: 72px;
+margin-top: 0;
+}
+body#splash {
+background-color: pink;
+background: url('/static/themes/alces_concertim/img/flight-concertim.jpg');
+background-position: right bottom;
+background-size: cover;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+background-repeat: no-repeat;
+
+
+}
+
+
+#main_content {
+  background-color: pink;
+  background: url('/static/themes/alces_concertim/img/flight-concertim-lite.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 76px;
+  min-height: 100vh;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*  text-transform: uppercase; */
+  font-weight: 700;
+}
+
+
+.navbar {
+background: rgba(0,0,0,0.9);
+height: 75px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+padding-top: 29px;
+padding-bottom: 28px;
+}
+
+
+.navbar-brand {
+  height: 75px;
+}
+
+
+.navbar-brand img {
+  margin-top: 13px;
+  margin-left: 6px;
+  height: 60px;
+}
